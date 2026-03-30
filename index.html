@@ -17,32 +17,133 @@
   </head>
 </html>
 <body style="border: 2px solid black">
-  <header>
+  <header id="home" style="border: 2px solid black">
     <nav
       class="navbar"
       style="
         position: fixed;
         top: 0;
         left: 0;
-        width: 100%;
+        width: 97%;
         display: flex;
         justify-content: space-between;
         align-items: center;
         box-sizing: border-box;
         padding: 0 1rem;
+        background-color: white;
+        margin-top: 14px;
+        margin-left: 20px;
+        margin-right: 20px;
       "
     >
       <div class="nav-left">
         <h1>Nexawi</h1>
       </div>
-      <div class="nav-right" style="font-size: 25px;">
-        <a href="#home">Home</a> /
-        <a href="#about">Projects</a> /
-        <a href="#articles">Articles</a> /
-        <a href="#contact">Contact</a>
+      <div class="nav-right" style="font-size: 25px">
+        <a href="#home">Home</a> / <a href="Projects.html">Projects</a> /
+        <a href="Articles.html">Articles</a> /
+        <a href="Contact.html">Contact</a>
       </div>
     </nav>
     <h1 style="margin-top: 100px; text-align: center">University Student</h1>
-    <h3 style="text-align: center;color: gray;margin-bottom: 100px;">HTML with proper layout, no styling </h3>
+    <h3 style="text-align: center; color: gray; margin-bottom: 100px">
+      HTML with proper layout, no styling
+    </h3>
   </header>
+  <table
+    style="border: 1px solid black; width: 100%; border-collapse: collapse"
+    cellpadding="15"
+    cellspacing="0"
+  >
+    <tr>
+      <td style="border: 1px solid black" width="30%" valign="top">
+        <h2>Projects</h2>
+        <p>HTML Only Portfolio</p>
+        <hr />
+        <p>Calculator</p>
+        <hr />
+        <p>Quiz App</p>
+        <hr />
+        <p>Countdown Timer</p>
+        <hr />
+        <p>Product Upcoming Page</p>
+      </td>
+      <td style="border: 1px solid black" width="35%" valign="top">
+        <h2>Work Experience</h2>
+        <p>
+          <b>roadmap.sh</b><br />
+          Solved all the frontend projects
+        </p>
+        <p>
+          <a href="https://roadmap.sh/u/nexawi">Visit my Profile</a>
+        </p>
+        <hr />
+        <p>
+          <b>OpenSource Work</b><br /><br />
+          Contributed to 50 opensource projects. Made my own projects with 200
+          GitHub Stars.
+        </p>
+        <p>
+          <a href="https://github.com/Nexawi">Visit my GitHub Profile</a>
+        </p>
+      </td>
+      <td style="border: 1px solid black" width="35%" valign="top">
+        <h2>Education</h2>
+        <p>
+          Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30
+          sessions.
+        </p>
+        <p><b>Courses I took:</b></p>
+        <ul>
+          <li>Object Oriented Programming</li>
+          <li>Data Structures and Algorithms</li>
+          <li>Web Engineering</li>
+          <li>Artificial Intelligence</li>
+          <li>Human Computer Interaction</li>
+          <li>Computer Graphics</li>
+          <li>Database Management Systems</li>
+          <li>Distributed Database Systems</li>
+          <li>Discrete Mathematics</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+  
+  <section>
+    <h2 style="text-align: left;margin-left: 30px; margin-top: 50px">Reviews from my Teachers</h2>
+    <table style="border-collapse: separate;border-spacing: 20px;">
+        <tr>
+            <td style="border: 1px solid black; border-radius: 10px;  width: 33%; padding: 30px; box-sizing: border-box";>
+                <p style="color: black; font-style: italic">
+                    "Nexawi is one of the most dedicated and talented students I have ever had. He consistently goes above and beyond in his work, demonstrating a deep understanding of the material and a passion for learning. His projects are always well-executed and innovative, and he is a pleasure to have in class."
+                </p>
+                <p style="color: grey; font-style: italic">
+                    Dr. John Doe, Professor of Computer Science
+                </p>
+            </td>
+            <td style="border: 1px solid black; border-radius: 10px; width: 33%; padding: 30px; box-sizing: border-box">
+                <p style="color: black; font-style: italic">
+                    "Nexawi is an exceptional student who consistently produces high-quality work. He has a strong grasp of software engineering principles and is able to apply them effectively in his projects. He is also a great team player and is always willing to help his classmates."
+                </p>
+                <p style="color: grey; font-style: italic">
+                    Dr. Jane Smith, Professor of Software Engineering
+                </p>
+            </td>
+            <td style="border: 1px solid black; border-radius: 10px; width: 33%; padding: 30px; box-sizing: border-box">
+                <p style="color: black; font-style: italic">
+                    "Nexawi is a standout student who has shown remarkable dedication and talent throughout his academic journey. He consistently delivers outstanding work and has a natural aptitude for problem-solving. His enthusiasm for learning and his ability to collaborate effectively make him an asset to any team."
+                </p>
+
+                <p style="color: grey; font-style: italic">
+                    Dr. Emily Johnson, Associate Professor of Computer Science
+                </p>
+            </td>
+        </tr>
+    </table>
+  </section>
+
+  <footer style="text-align: center; padding: 20px; margin-top: 50px; margin-bottom: 50px;">
+    <p style="font-size: 32px;">&copy; 2024 Nexawi. All rights reserved.</p>
+
+  </footer>
 </body>
