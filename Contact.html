@@ -49,5 +49,81 @@
         HTML with proper layout, no styling
       </h3>
     </header>
+    <section style="border: 2px solid black">
+      <h2 style="text-align: left; margin-left: 30px">Contact Information</h2>
+      <p style="margin-left: 30px; margin-right: 30px">
+        You can contact me through the following channels:
+      </p>
+      <ul style="margin-left: 50px; margin-right: 30px">
+        <li>
+          Email:
+          <a href="mailto:e2000brahim2000@gmail.com"
+            >e2000brahim2000@gmail.com</a
+          >
+        </li>
+        <li>Phone: +1234567890</li>
+        <li>
+          LinkedIn:
+          <a href="https://www.linkedin.com/in/ebrahim-jaffer-823560146/"
+            >linkedin.com/in/ebrahim-jaffer-823560146</a
+          >
+        </li>
+        <li>
+          GitHub: <a href="https://github.com/Nexawi">github.com/Nexawi</a>
+        </li>
+        <li>
+          RoadMap: <a href="https://roadmap.sh/u/nexawi">roadmap.sh/u/nexawi</a>
+        </li>
+      </ul>
+    </section>
+    <section style="border: 2px solid black;">
+      <h2 style="text-align: left; margin-left: 30px">Send Me a Message</h2>
+      <form
+        action="#"
+        method="post"
+        style="margin: 0 30px 30px 30px; max-width: 700px"
+      >
+        <label for="name">Name</label><br />
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Your full name"
+          required
+          style="width: 100%; padding: 10px; margin: 8px 0 16px 0"
+        /><br />
+
+        <label for="email">Email</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="you@example.com"
+          required
+          style="width: 100%; padding: 10px; margin: 8px 0 16px 0"
+        /><br />
+
+        <label for="subject">Subject</label><br />
+        <input
+          type="text"
+          id="subject"
+          name="subject"
+          placeholder="What is this about?"
+          style="width: 100%; padding: 10px; margin: 8px 0 16px 0"
+        /><br />
+
+        <label for="message">Message</label><br />
+        <textarea
+          id="message"
+          name="message"
+          rows="6"
+          placeholder="Write your message here"
+          required
+          style="width: 100%; padding: 10px; margin: 8px 0 16px 0"
+        ></textarea
+        ><br />
+        <button type="submit" style="padding: 10px 20px">Send Message</button>
+      </form>
+    </section>
   </body>
 </html>
